@@ -169,19 +169,10 @@ All graphs plot the Hall effect sensor value as a function of time, representing
 The plots show the initial values as the magnet is brought closer to the electromagnet (visible as large variations), followed by stable levitation where the measured value stays within a narrow range.
 
 ### Graph 1 — Set Point: 630
-![Set Point 630](graphs/graph_setpoint_630.png)
+![Set Point 630](graphs/setpoint_630.png)
 
 ### Graph 2 — Set Point: 700
-![Set Point 700](graphs/graph_setpoint_700.png)
+![Set Point 700](graphs/setpoint_700.png)
 
 ### Graph 3 — Set Point: 730
-![Set Point 730](graphs/graph_setpoint_730.png)
-
----
-
-## Course Info
-
-- **Course:** Digital Control
-- **Institution:** Universidad Anáhuac Mayab
-- **Student:** Sebastián Mayorga Castro
-- **Date:** May 2021
+![Set Point 730](graphs/setpoint_730.png)
