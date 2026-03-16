@@ -176,3 +176,12 @@ The plots show the initial values as the magnet is brought closer to the electro
 
 ### Graph 3 — Set Point: 730
 ![Set Point 730](graphs/graph_setpoint_730.png)
+
+---
+
+## Course Info
+
+- **Course:** Digital Control
+- **Institution:** Universidad Anáhuac Mayab
+- **Student:** Sebastián Mayorga Castro
+- **Date:** May 2021
