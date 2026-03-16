@@ -3,9 +3,6 @@
 ![Arduino](https://img.shields.io/badge/Arduino-1.8-00979D?style=flat&logo=arduino&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-11-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-UNO%20%7C%20Nano-blue?style=flat)
-![Control](https://img.shields.io/badge/Control-PID-orange?style=flat)
-![Year](https://img.shields.io/badge/Year-2021-lightgrey?style=flat)
-![University](https://img.shields.io/badge/Universidad%20An%C3%A1huac-Mayab-darkgreen?style=flat)
 
 **Digital Control — Final Project | Universidad Anáhuac Mayab, 2021**
 
