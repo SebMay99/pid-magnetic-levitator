@@ -3,9 +3,6 @@
 ![Arduino](https://img.shields.io/badge/Arduino-1.8-00979D?style=flat&logo=arduino&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-11-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-UNO%20%7C%20Nano-blue?style=flat)
-![Control](https://img.shields.io/badge/Control-PID-orange?style=flat)
-![Year](https://img.shields.io/badge/Year-2021-lightgrey?style=flat)
-![University](https://img.shields.io/badge/Universidad%20An%C3%A1huac-Mayab-darkgreen?style=flat)
 
 **Digital Control — Final Project | Universidad Anáhuac Mayab, 2021**
 
@@ -28,8 +25,8 @@ Three pre-calibrated levitation set points are available, selectable via a 4×3 
 Due to hardware constraints (I/O and library conflicts), the system was split across **two microcontrollers** communicating via digital I/O pins:
 
 ```
-┌─────────────────────────┐        Digital pins        ┌──────────────────────────┐
-│      Arduino UNO        │ ◄──────────────────────── │      Arduino Nano        │
+┌─────────────────────────┐        Digital pins         ┌──────────────────────────┐
+│      Arduino UNO        │ ◄────────────────────────   │      Arduino Nano        │
 │                         │                             │                          │
 │  • Hall effect sensor   │                             │  • 4×3 Keypad input      │
 │  • PID control loop     │                             │  • 16×2 LCD I2C display  │
@@ -106,27 +103,6 @@ The output is clamped to the 8-bit PWM range `[0, 255]` and written to the elect
 | D11     | Mode 2 signal (to UNO)       |
 | D12     | Mode 3 signal (to UNO)       |
 | SDA/SCL | LCD I2C                      |
-
----
-
-## Repository Structure
-
-```
-pid-magnetic-levitator/
-├── firmware/
-│   ├── arduino_uno/
-│   │   └── PID.ino                          # PID control loop (Arduino UNO)
-│   └── arduino_nano/
-│       └── LCD_KeyPad.ino                   # Keypad & LCD interface (Arduino Nano)
-├── hardware/
-│   └── Gerber_PCB_Magnet_Power.zip          # PCB Gerber files for electromagnet driver
-├── graphs/
-│   ├── pcb_schematic.png                    # PCB schematic image
-│   ├── graph_setpoint_630.png               # Hall sensor response — set point 630
-│   ├── graph_setpoint_700.png               # Hall sensor response — set point 700
-│   └── graph_setpoint_730.png               # Hall sensor response — set point 730
-└── README.md
-```
 
 ---
 
