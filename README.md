@@ -25,8 +25,8 @@ Three pre-calibrated levitation set points are available, selectable via a 4×3 
 Due to hardware constraints (I/O and library conflicts), the system was split across **two microcontrollers** communicating via digital I/O pins:
 
 ```
-┌─────────────────────────┐        Digital pins        ┌──────────────────────────┐
-│      Arduino UNO        │ ◄──────────────────────── │      Arduino Nano        │
+┌─────────────────────────┐        Digital pins         ┌──────────────────────────┐
+│      Arduino UNO        │ ◄────────────────────────   │      Arduino Nano        │
 │                         │                             │                          │
 │  • Hall effect sensor   │                             │  • 4×3 Keypad input      │
 │  • PID control loop     │                             │  • 16×2 LCD I2C display  │
