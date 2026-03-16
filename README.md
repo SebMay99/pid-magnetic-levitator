@@ -106,27 +106,6 @@ The output is clamped to the 8-bit PWM range `[0, 255]` and written to the elect
 
 ---
 
-## Repository Structure
-
-```
-pid-magnetic-levitator/
-├── firmware/
-│   ├── arduino_uno/
-│   │   └── PID.ino                          # PID control loop (Arduino UNO)
-│   └── arduino_nano/
-│       └── LCD_KeyPad.ino                   # Keypad & LCD interface (Arduino Nano)
-├── hardware/
-│   └── Gerber_PCB_Magnet_Power.zip          # PCB Gerber files for electromagnet driver
-├── graphs/
-│   ├── pcb_schematic.png                    # PCB schematic image
-│   ├── graph_setpoint_630.png               # Hall sensor response — set point 630
-│   ├── graph_setpoint_700.png               # Hall sensor response — set point 700
-│   └── graph_setpoint_730.png               # Hall sensor response — set point 730
-└── README.md
-```
-
----
-
 ## Keypad Controls
 
 | Key | Action                          |
